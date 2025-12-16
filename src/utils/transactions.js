@@ -10,6 +10,15 @@ export const initialTransactions = [
     baseDayOffset: 0
   },
   {
+    name: 'NINH THI THUY TRANG',
+    amount: 2000,
+    msg: 'QR - mua keo mut',
+    fixedHour: 14,
+    fixedMin: 38,
+    type: 'receive',
+    baseDayOffset: 0
+  },
+  {
     name: 'NGUYEN QUOC KHANH (SOC SON)',
     amount: 2000,
     msg: 'Con co 2k thui',
