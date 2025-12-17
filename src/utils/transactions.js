@@ -6,7 +6,7 @@ export const initialTransactions = [
     msg: 'mua hai goi Bim Bim',
     fixedHour: 15,
     fixedMin: 32,
-    type: 'spend',
+    type: 'receive',
     baseDayOffset: 1
   },
   {
