@@ -1,13 +1,22 @@
 // Initial transaction data
 export const initialTransactions = [
   {
-    name: 'LAI THU HUONG (TV MART)',
+    name: 'GIAU TEN',
+    amount: 17000,
+    msg: 'mua hai goi Bim Bim',
+    fixedHour: 15,
+    fixedMin: 32,
+    type: 'spend',
+    baseDayOffset: 1
+  },
+  {
+    name: 'LAI THI THU HUONG (TV MART)',
     amount: 12000,
     msg: 'Mua 2 goi Bim Bim',
     fixedHour: 15,
     fixedMin: 32,
     type: 'spend',
-    baseDayOffset: 0
+    baseDayOffset: 1
   },
   {
     name: 'NINH THI THUY TRANG',
@@ -16,7 +25,7 @@ export const initialTransactions = [
     fixedHour: 14,
     fixedMin: 38,
     type: 'receive',
-    baseDayOffset: 0
+    baseDayOffset: 1
   },
   {
     name: 'NGUYEN QUOC KHANH (SOC SON)',
@@ -25,7 +34,7 @@ export const initialTransactions = [
     fixedHour: 12,
     fixedMin: 14,
     type: 'receive',
-    baseDayOffset: 0
+    baseDayOffset: 1
   },
   {
     name: 'VU VAN THAN',
@@ -34,7 +43,7 @@ export const initialTransactions = [
     fixedHour: 10,
     fixedMin: 47,
     type: 'receive',
-    baseDayOffset: 0
+    baseDayOffset: 1
   },
   {
     name: 'NGUYEN VAN TUAN (Quan tap hoa)',
